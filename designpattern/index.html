@@ -1,0 +1,36 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>webgl_vanilla</title>
+
+  <style type="text/css">
+    body {
+      padding: 0px;
+      margin: 0px;
+      background-color: #000000;
+    }
+
+    #game_main {
+      width: 100vw;
+      height: 100vh;
+    }
+
+    /* 보이는 화면 크기에 맞추도록. 뷰포트(vw, vh)값을 설정 */
+  </style>
+
+</head>
+
+<body>
+  <div id="bkgnd">
+    <div id="game_main">
+      <script>var argvStartSceneName = 'a_templ';</script> <!-- blast_scene, curve_test_scene -->
+      <script type="module" src=" ./src/main.ts"></script>
+    </div>
+  </div>
+  <p>done</p>
+</body>
+
+
+</html>

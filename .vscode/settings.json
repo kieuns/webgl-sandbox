@@ -1,0 +1,13 @@
+{
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "tsconfig.json": "tsconfig.*.json, jsconfig*, env.d.ts",
+    "package.json": "package-lock.json, pnpm*, .yarnrc*, yarn*, .eslint*, eslint*, .prettier*, prettier*, .editorconfig, .markdownlint*, .gitignore, .gitattributes",
+    "README.md": "CHANGELOG.md, LICENSE*, CONTRIBUTING.md",
+  },
+  "editor.codeActionsOnSave": [
+    "source.sortImports",
+    "source.fixAll"
+  ],
+  "editor.formatOnSave": true
+}
