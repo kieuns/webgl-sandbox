@@ -1,0 +1,15 @@
+{
+    // https://code.visualstudio.com/docs/languages/jsconfig
+    "compilerOptions": {
+        "target": "es6",
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "checkJs": true, /* Enable error reporting in type-checked JavaScript files. */
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "strictBindCallApply": true, /* Check that the arguments for `bind`, `call`, and `apply` methods match the original function. */
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}

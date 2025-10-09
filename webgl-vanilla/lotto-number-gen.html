@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Random Lottery Numbers</title>
+</head>
+
+<body>
+  <script>
+    // 1부터 45까지의 숫자 배열을 생성
+    const numbers = Array.from({ length: 45 }, (_, i) => i + 1);
+
+    // 배열을 무작위로 섞는 함수 (Fisher-Yates Shuffle 알고리즘)
+    function shuffle(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+    }
+
+    // 배열을 무작위로 섞음
+    shuffle(numbers);
+
+    // 앞에서부터 6개의 숫자를 선택
+    const selectedNumbers = numbers.slice(0, 6);
+
+    // 선택된 숫자들을 오름차순으로 정렬
+    selectedNumbers.sort((a, b) => a - b);
+
+    // 결과 출력
+    console.log("무작위로 선택된 숫자: " + selectedNumbers.join(', '));
+  </script>
+</body>
+
+</html>

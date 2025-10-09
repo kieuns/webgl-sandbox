@@ -1,0 +1,30 @@
+{
+  "name": "html_canvas_ts",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "@tsconfig/node22": "^22.0.0",
+    "@types/jsdom": "^21.1.7",
+    "@types/node": "^22.13.4",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@types/dat.gui": "^0.7.13",
+    "eslint": "^9.20.1",
+    "eslint-plugin-vue": "^9.32.0",
+    "globals": "^16.0.0",
+    "jsdom": "^26.0.0",
+    "typescript": "^5.7.3",
+    "vite": "^6.1.1",
+    "typescript-eslint": "^8.24.1"
+  },
+  "dependencies": {
+    "dat.gui": "^0.7.9",
+    "phaser": "^3.88.2"
+  }
+}
