@@ -496,7 +496,7 @@ this._text1 = this.add.text(0, 20, "AAAA", { font: "65px Arial", fill: "#ff0044"
 
 글자에 링크 클릭을 설정할 수 있다.
 
-```
+```js
 var label = this.add.text(32, 32 + (i * 16), 'aaaa', { color: '#00ff00' });
 label.setInteractive();
 ```
